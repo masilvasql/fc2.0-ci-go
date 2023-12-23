@@ -8,7 +8,7 @@ jobs:
         runs-on: ubuntu-latest
         strategy:
             matrix:
-                go: ['1.14', '1.15', '1.19']
+                go: ['1.14', '1.15', '1.23']
         steps:
             - uses: actions/checkout@v2 # checkout the repository to the runner machine
             - uses: actions/setup-go@v2 # setup go environment
