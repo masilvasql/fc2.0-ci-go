@@ -35,4 +35,4 @@ jobs:
               uses: docker/build-push-action@v5
               with:
                 push: true
-                tags: masilvasql/fc2.0-ci-go:latest
+                tags: masilvadocker/fc2.0-ci-go:latest
